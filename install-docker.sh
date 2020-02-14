@@ -24,6 +24,7 @@ sudo chmod +x /usr/bin/docker-compose
 # https://docs.docker.com/compose/completion/
 sudo curl -L https://raw.githubusercontent.com/docker/compose/1.24.1/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
 
+sudo apt install docker-ce
 # https://docs.docker.com/install/linux/linux-postinstall/
 sudo groupadd docker
 sudo usermod -aG docker $USER
